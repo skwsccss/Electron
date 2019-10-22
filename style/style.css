@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background: black;
+}
+
+.nav-item {
+    padding: 10px 25px;
+    font-size: 20;
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+    color: white;
+}
+
+
+#close:hover{
+    background: red;
+}
+
+#max:hover{
+    opacity: 0.8;
+}
+
+#minimize:hover{
+    opacity: 0.8;
+}
+
+.title {
+    color: white;
+    font-size: 25px;
+    padding: 10px 25px;
+
+}

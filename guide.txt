@@ -1,0 +1,14 @@
+First you have to download the syncthing app for your OS.
+Next run the syncthing app and then will be open the browser for the app.
+Here you can get the API Key in setting GUI.
+-----------------------------xxxxxxxxxxxxxxxxxxxxxxxxx-----------------------
+At a first we have to run the "npm install" command in terminal(of course in source code path) to install node modules.
+And you can run "npm run start" command to run the script.
+And also you can run "npm run package-mac" command to build app for mac OS version.
+If you run this command "npm run package-win", then will be built app for windows version. 
+
+After run the electron app you can paste the API key and input rest api url,
+and next pressing the fetch data button, you can get the result.
+
+
+Thanks, Vladimir
