@@ -2,81 +2,68 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>XXX</title>
-  <link rel="stylesheet" href="../style/style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>XXX</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div id="content">
-    <!-- <header class="nav justify-content-end">
-      <div class="option" id="close">&#x2716;</div>
-      <div class="option" id="max">&#x1f5d6;</div>
-      <div class="option" id="minimize">&#x1f5d5;</div>
-      <div style="margin-left: 50px;"></div>
-      <div class="title">Test Api using Electron js</div>
-    </header> -->
-    <div>
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link" id="minimize" href="#">&#x1f5d5;</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="max" href="#">&#x1f5d6;</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="close" href="#">&#x2716;</a>
-        </li>
-      </ul>
-    </div>
-    <div class="row" style="margin-top:30px; width: 100%">
-      <div class="col-md-2 col-sm-2">
-      </div>
-      <div class="col-md-6 col-sm-6">
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="basic-addon1">API Key</span>
-          </div>
-          <input type="text" class="form-control" placeholder="API Key" aria-label="Username"
-            aria-describedby="basic-addon1" id="api_key">
+    <div id="content">
+        <div>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" id="minimize" href="#">&#x1f5d5;</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="max" href="#">&#x1f5d6;</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="close" href="#">&#x2716;</a>
+                </li>
+            </ul>
         </div>
-      </div>
-      <div class="col-md-4 col-sm-4"></div>
-    </div>
-    <div class="row" style="width: 100%">
-      <div class="col-md-2 col-sm-2"></div>
-      <div class="col-md-8 col-sm-8">
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text">http://localhost:8384/</span>
-          </div>
-          <input type="text" class="form-control" id="url">
-          <div class="input-group-append">
-            <button class="btn btn-primary input-group-text" type="button" id="fetch_data">fetch data</button>
-          </div>
+        <div class="row" style="margin-top:30px; width: 100%">
+            <div class="col-md-2 col-sm-2">
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">API Key</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="API Key" aria-label="Username" aria-describedby="basic-addon1" id="api_key">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4"></div>
         </div>
-      </div>
-      <div class="col-md-2 col-sm-2"></div>
+        <div class="row" style="width: 100%">
+            <div class="col-md-2 col-sm-2"></div>
+            <div class="col-md-8 col-sm-8">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <select name="method" id="method" class="input-group-text">
+                            <option value="1">GET</option>
+                            <option value="2">POST</option>
+                        </select>
+                        <span class="input-group-text">http://localhost:8384/</span>
+                    </div>
+                    <input type="text" class="form-control" id="url">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary input-group-text" type="button" id="fetch_data">Send</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-2"></div>
+        </div>
+        <div class="row" style="width: 100%; height:400px">
+            <div id="preview"></div>
+        </div>
     </div>
-    <div class="row" style="width: 100%; height:400px">
-      <div id="preview"></div>
-    </div>
-
-
-  </div>
-  <!-- You can also require other files to run in this process -->
-  <script src="../script/renderer.js" type=""></script>
+    <!-- You can also require other files to run in this process -->
+    <script src="../script/renderer.js" type=""></script>
 </body>
 
 </html>
